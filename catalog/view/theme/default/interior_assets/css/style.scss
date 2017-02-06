@@ -1,0 +1,184 @@
+*{
+  box-sizing: border-box;padding: 0;margin: 0;
+  &:after,
+  &:before{
+    box-sizing: border-box;padding: 0;margin: 0;
+  }
+}
+.door__js{
+  width: 100%;
+  display: block;
+  .interiero{
+    width: 29%;
+    height: 490px;
+    border: 1px solid #C8C8C8;
+    margin: 0 7px 0 0;
+    background-color: #F0F0F0;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    #fabHead {
+      display: block;
+      background: #ff7e00 none repeat scroll 0 0;
+      color: #fff;
+      padding: 10px;
+      font-weight: 700;
+      font-size: 21px;
+      text-align: center;
+    }
+    #intWarp {
+      height: 430px;
+      overflow-y: scroll;
+      .uploadInter {
+        max-height: 100px;
+        width: 135px;
+        margin: 8px 3px 4px 8px;
+        opacity: .5;
+        cursor: pointer;
+      }
+    }
+    #fabAdd {
+      display: block;
+      background: #00ba23 none repeat scroll 0 0;
+      color: #fff;
+      padding: 10px;
+      font-weight: 700;
+      font-size: 21px;
+      text-align: center;
+      height: 69px;
+      padding-right: 170px;
+      padding-top: 4px;
+      line-height: 29px;
+    }
+  }
+  .blockz{
+    width: 70%;
+    height: 490px;
+    border: 1px solid #C8C8C8;
+    margin: 0;
+    background-color: #F0F0F0;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    .confa {
+      position: absolute;
+      display: inline-block;
+      height: 100%;
+      width: 250px;
+      background: rgba(255,255,255,0.82);
+      top: 0;
+      left: -250px;
+      display: none;
+    }
+    .closeImg{
+      position:absolute;
+      display:inline-block;
+      height:auto;
+      width:30px;
+      top:10px;
+      right:10px;
+      &:hover{
+        cursor:pointer;
+        -ms-transform:rotate(180deg);
+        -webkit-transform:rotate(180deg);
+        transform:rotate(180deg);
+        transition:ease-in-out .25s
+      }
+    }
+    .confaImg{
+      position:absolute;
+      display:none;
+      height:auto;
+      width:50px;
+      top:10px;
+      left:10px;
+      &:hover{
+        cursor:pointer;
+        -ms-transform:rotate(180deg);
+        -webkit-transform:rotate(180deg);
+        transform:rotate(180deg);
+        transition:ease-in-out .25s
+      }
+    }
+    .optTop{
+      display:inline-block;
+      height:50px;
+      width:100%;
+      display:inline-block;
+      height:50px;
+      width:100%;
+      padding:15px;
+      font-size:15px;
+      color:#00ba23;
+      font-weight:700;
+      border-bottom:1px dotted green;
+    }
+    .fon {
+      background: url(/image/interier/28.jpg);
+      background-size: contain;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+    .container_door {
+      background-size: 100% 100%!important;
+      width: 190px;
+      height: 410px;
+      left: 0px;
+      top: 54px;
+      .reset {
+        background: url(/image/clear.png);
+        position: relative;
+        top: 50%;
+        left: -26%;
+        width: 45px;
+        height: 45px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: .6;
+      }
+      .ui-icon{width:26px;height:26px;background-size:contain!important;margin-top:0;opacity:.6;background-repeat:no-repeat!important}
+      .ui-icon-arrowrefresh-1-s{background:url(images/rotate.png);right:-14%!important;top:-6%!important}
+      .ui-icon-arrow-2-e-w{background:url(images/skew_h.png);left:42%!important;top:-7%!important}
+      .ui-icon-search{background:url(images/zoom.png);left:-15%!important;top:-6%!important}
+      .ui-icon-arrow-2-n-s{background:url(images/skew_v.png);right:-13%!important}
+      .ui-icon-gripsmall-diagonal-se{background:url(images/resize.png)}
+    }
+  }
+}
+#fabHead {
+  display: block;
+  background: #ff7e00 none repeat scroll 0 0;
+  color: #fff;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 21px;
+  text-align: center;
+}
+.fabinfo {
+  display: inline-block;
+  background: #fff none repeat scroll 0 0;
+  color: #ff7500;
+  padding: 15px 18px 19px;
+  font-weight: 700;
+  font-size: 21px;
+  text-align: center;
+  width: 100%;
+  border: 3px dashed #ff7500;
+}
+center {
+  position: relative;
+  width: 100%;
+  padding-top: 10px;
+  #existingImges {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 230px;
+    white-space: nowrap;
+    .uploadImage {
+      max-height: 200px;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+  }
+}

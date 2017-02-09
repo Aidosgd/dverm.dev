@@ -53,23 +53,8 @@
             <div class="blockz">
               <div class="fon" style="filter: blur(0px) brightness(100%) contrast(100%) opacity(100%) saturate(100%);"></div>
               <div class="container_door boxy ui-draggable ui-draggable-handle ui-resizable"
-                   style="    background: url(image/begin.jpg);position: relative;">
+                   style="background: url(image/begin.jpg);position: relative;">
                 <div class="reset"></div>
-                <div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div>
-                <div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div>
-                <div title="Scale" class="transformable-handle-scale transformable-handle ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"
-                     style="z-index: 90;"></div>
-                <div title="Rotate"
-                     class="transformable-handle-rotate transformable-handle ui-icon ui-icon-arrowrefresh-1-s"
-                     style="right: 1px; top: 1px; position: absolute; z-index: 2000;"></div>
-                <div title="Skew x-axis"
-                     class="transformable-handle-skew-h transformable-handle-skew transformable-handle ui-icon ui-icon-arrow-2-e-w"
-                     style="left: 50%; top: 1px; position: absolute; z-index: 2000;"></div>
-                <div title="Skew y-axis"
-                     class="transformable-handle-skew-v transformable-handle-skew transformable-handle ui-icon ui-icon-arrow-2-n-s"
-                     style="right: 1px; top: 50%; position: absolute; z-index: 2000;"></div>
-                <div class="transformable-handle-scale transformable-handle ui-icon ui-icon-search" title="Scale"
-                     style="left: 1px; top: 1px; position: absolute; z-index: 2000;"></div>
               </div>
 
               <img class="confaImg magictime" src="/image/options.png">
